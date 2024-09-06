@@ -13,7 +13,7 @@ COPY logs/ /app/logs/
 COPY versions/ /app/versions/
 
 # Expose the default Minecraft port
-EXPOSE 25565
+EXPOSE 5000
 
 # Run the Minecraft server
 CMD ["java", "-Xmx384M", "-Xms384M", "-jar", "minecraft_server.1.21.1.jar", "nogui"]
