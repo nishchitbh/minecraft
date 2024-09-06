@@ -16,4 +16,4 @@ COPY versions/ /app/versions/
 EXPOSE 25565
 
 # Run the Minecraft server
-CMD ["java", "-Xmx1024M", "-Xms1024M", "-jar", "minecraft_server.1.21.1.jar", "nogui"]
+CMD ["java", "-Xmx384M", "-Xms384M", "-jar", "minecraft_server.1.21.1.jar", "nogui"]
